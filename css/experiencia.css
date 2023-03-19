@@ -1,0 +1,57 @@
+.experiencia__container {
+    display: flex;
+    padding-left: 15rem;
+}
+.experiencia__img {
+    width: 600px;
+    height: 300px;
+    box-shadow: 3px 3px 3px 3px rgba(32,32,32,0.3);
+}
+.experiencia__texto {
+    padding-left: 1.56rem;
+    color: #4e4e4e;
+    font-family: 'Bebas Neue', cursive;
+}
+.experiencia__botones {
+    display: flex;
+    justify-content: space-evenly;
+}
+.experiencia__boton1 {
+    font-weight: 700;
+    display: block;
+    width: 65px;    
+    border-radius: 5px;
+    border:3px solid rgb(255, 228, 73);
+    padding: 15px 22px;
+    text-decoration: none;
+    color: rgba(12, 12, 12, 0.829);
+}
+.experiencia__boton2 {
+    font-weight: 700;
+    display: block;
+    width: 35px;    
+    border-radius: 5px;
+    border:3px solid rgb(255, 228, 73);
+    padding: 15px 22px;
+    text-decoration: none;
+    margin-left: 1.75rem;
+    color: rgba(12, 12, 12, 0.829);
+}
+
+/*zone responsive mobile*/
+@media only screen and (max-width: 767px) {
+    .experiencia__container {
+        display: grid;
+        margin-left: -13rem;
+    }
+    .experiencia__img {
+        width: 300px;
+        height: 150%;
+    }
+    .experiencia__texto {
+        padding-top: 5rem;
+    }
+    .experiencia__botones {
+        margin-left: -4.5rem;
+    }
+}

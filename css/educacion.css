@@ -1,0 +1,64 @@
+.educacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 82px;
+    gap: 32px;
+}
+.educacion__platzi {
+    background-color: rgba(138, 138, 138, 0);
+    width: 350px;   
+    height: 150px;
+    border: solid rgb(255, 217, 0);
+    border-radius: 5px;
+}
+.educacion__alura-latam {
+    background-color: rgba(138, 138, 138, 0);
+    width: 350px;   
+    height: 150px;
+    margin-left: 8rem;
+    border: solid rgb(255, 228, 73);
+    border-radius: 5px;
+}
+.textos__educacion {
+    display: flex;
+    margin-right: 7.5rem;
+    margin-top: -2.5rem;
+}
+.texto1__container {
+    margin-right: 15rem;
+}
+.educacion__parrafo {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #777777;
+    margin-top: -1.5rem;
+}
+.educacion__titulo {
+    color: #4e4e4e;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 100;
+}
+
+/*zone responsive mobile*/
+@media only screen and (max-width: 767px){
+    .educacion {
+        flex-direction: column;
+        margin: 0%;
+    }
+    .educacion__platzi {
+        border: none;
+    }
+    .educacion__alura-latam {
+        border: none;
+        margin: 0;
+    }
+    .textos__educacion {
+        flex-direction: column;
+        margin: 0;
+        text-align: center;
+    }
+    .texto1__container {
+        text-align: center;
+        margin-left: 15rem;
+    }
+}

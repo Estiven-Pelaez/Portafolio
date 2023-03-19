@@ -1,0 +1,73 @@
+.skill {
+    text-align: center;
+    display: flex;
+}
+.titulo {
+    text-align: center;
+    color: #4e4e4e;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 2000;
+}
+.skill__container {
+    display: flex;
+    width: 80%;
+    height: 30vh;
+    background-color: rgba(255, 255, 255, 0);
+    align-items: center;
+    margin-left: 8rem;
+    border: 9px solid rgb(255, 217, 0);
+    border-radius: 10px;
+    justify-content: space-around;
+}
+.skill__img-2 {
+    width: 96px;
+    height: 96px;
+    margin-right: 5rem;
+}
+.skill__img-3 {
+    width: 105px;
+    height: 113px;
+    margin-right: 5rem;
+}
+.skill__img-4 {
+    width: 120px;
+    height: 115px;
+}
+.skill__img-1 {
+    width: 105px;
+    height: 105px;
+    margin-right: 5rem;
+}
+.Hobbies__container {
+    display: flex;
+    width: 80%;
+    height: 30vh;
+    background-color: rgba(255, 255, 255, 0);
+    align-items: center;
+    margin-left: 8rem;
+    border: 9px solid rgb(255, 217, 0);
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+/* Estilos para pantallas pequeñas, como celulares */
+@media only screen and (max-width: 767px) { 
+    .skill__container {
+        border: none;
+        flex-direction: column;
+        padding-top: 7rem;
+        margin-right: 3rem;
+    }
+    .skill__img-4 {
+        margin-right: 5rem;
+    }
+    .titulo {
+        margin-top: 10rem;
+    }
+    .Hobbies__container {
+        border: none;
+        flex-direction: column;
+        padding-top: 3rem;
+        margin-left: 2.5rem;
+    }
+   }

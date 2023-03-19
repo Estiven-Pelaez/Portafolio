@@ -1,0 +1,75 @@
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 7rem;
+    margin-top: 3.75rem;
+}
+.banner__titulo {
+    color: #4e4e4e;
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+}
+.banner__descripcion{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #777777;
+    font-weight: 550;
+    font-size: 20px;
+}
+.banner__foto {
+    width: 300px;
+    border-radius: 30px;
+    justify-items: end;
+    box-shadow: 3px 3px 3px 3px rgba(32,32,32,0.3);
+}
+.banner__links {
+    justify-content: space-around;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+.banner__links-items {
+    text-decoration: none;
+    background-image: linear-gradient(90deg, #F1C40F, #FF9800, #eea22f);
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    background-position: left bottom;
+    transition: background-size 600ms ease-in-out;
+}
+.banner__links-items:hover {
+    background-size: 100% 2px;
+}
+.banner__git {
+    text-decoration: none;
+    color:rgb(71, 71, 71);
+}
+.banner__link {
+    text-decoration: none;
+    color:rgb(71, 71, 71);
+}
+.banner__instagram {
+    text-decoration: none;
+    color:rgb(71, 71, 71);
+}
+.banner__corriculum {
+    text-decoration: none;
+    color:rgb(71, 71, 71);
+}
+
+/* Estilos para pantallas pequeñas, como celulares */
+@media only screen and (max-width: 767px) { 
+   .banner {
+    display:inline;
+   }
+    .banner__foto {
+    width: 200px;
+    height: 220px;
+    border-radius: 100%;
+    margin-left: 6rem;
+   } 
+  }

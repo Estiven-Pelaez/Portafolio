@@ -1,0 +1,12 @@
+.footer__textos {
+    margin-top: 2rem;
+    text-align: center;
+    padding: .75rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #424242;
+    font-weight: 550;
+    background-color: #5352529c;
+}
+.footer__p {
+    margin-top: -10px;
+}
